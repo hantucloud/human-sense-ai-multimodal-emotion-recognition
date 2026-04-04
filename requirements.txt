@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+torch
+torchvision
+tensorflow
+mediapipe
+streamlit-webrtc
+av 
+librosa 
+numpy

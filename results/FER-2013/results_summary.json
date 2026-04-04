@@ -1,0 +1,22 @@
+{
+    "model": "ResNet18",
+    "dataset": "FER-2013",
+    "image_size": 224,
+    "batch_size": 64,
+    "epochs": 30,
+    "learning_rate": 0.001,
+    "best_val_accuracy": 0.6912789077737531,
+    "test_accuracy": 0.6912789077737531,
+    "num_classes": 7,
+    "class_names": [
+        "angry",
+        "disgust",
+        "fear",
+        "happy",
+        "neutral",
+        "sad",
+        "surprise"
+    ],
+    "total_train_samples": 28709,
+    "total_test_samples": 7178
+}
