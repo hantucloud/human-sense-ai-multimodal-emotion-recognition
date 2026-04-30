@@ -1,166 +1,269 @@
-# 🧠 HumanSense AI – Multimodal Emotion Recognition System
+# 🎭 human-sense-ai-multimodal-emotion-recognition - See Feelings From Face And Voice
 
-HumanSense AI is a **multimodal deep learning system** that analyzes  **human emotions using both facial expressions and audio signals** .
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
 
-It integrates:
+## 🧭 Overview
 
-* 🎭 **Face Emotion Recognition (FER)** using FER-2013
-* 🎤 **Speech Emotion Recognition (SER)** using RAVDESS
-* 🔗 **Fusion Engine** for final emotion prediction
+human-sense-ai-multimodal-emotion-recognition is a Windows-ready emotion recognition app that uses facial expression and speech analysis to detect emotion from a person’s face and voice.
 
----
+It combines:
+- Facial emotion recognition, or FER
+- Speech emotion recognition, or SER
+- A Streamlit dashboard for easy use
 
-## 🚀 Features
+This app is built for users who want a simple way to check emotion signals from video or audio input. You do not need to know code to use it.
 
-* 🎥 Real-time face emotion detection
-* 🎤 Audio-based emotion classification
-* 🧠 Multimodal fusion for improved accuracy
-* 📊 Confidence-based scoring system
-* ⚡ Interactive Streamlit dashboard
+## ✨ What It Does
 
----
+- Reads facial expressions from camera input or image files
+- Analyzes speech to detect emotion from voice
+- Combines both results in one view
+- Shows results in a clean dashboard
+- Uses deep learning models for prediction
+- Works with common Windows setup steps
 
-## 🧩 System Architecture
+## 🖥️ What You Need
 
-The system consists of three major components:
+Use a Windows PC with these basics:
 
-* 🎭 Face Emotion Pipeline (FER-2013)
-* 🎤 Audio Emotion Pipeline (RAVDESS)
-* 🔗 Multimodal Fusion Engine
+- Windows 10 or Windows 11
+- At least 8 GB RAM
+- A camera for face analysis
+- A microphone for voice analysis
+- Internet access for the first setup
+- Enough free disk space for app files and model data
 
-📁 Detailed architecture diagrams are available in the `docs/` folder:
+For the best result, use:
+- A laptop or desktop with a working webcam
+- A clear microphone input
+- A stable power source during setup
 
-* `FER-2013_Face_Pipeline.png`
-* `Ravdess_Audio_Pipeline.png`
-* `MultiModal_Fusion.png`
+## 📥 Download and Setup
 
----
+[![Download the app](https://img.shields.io/badge/Download-Visit%20the%20Page-grey?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
 
-## 📂 Project Structure
+To get the app:
 
-```bash
-HumanSense-AI/
-├── app/                  # Streamlit application
-├── docs/                 # Architecture diagrams
-├── models/               # External model files (download required)
-├── notebooks/            # Training & experimentation
-├── results/              # Evaluation metrics & outputs
-├── requirements.txt
-└── README.md
-```
+1. Open the download page above
+2. Get the repository files from the page
+3. Save them to a folder on your Windows PC
+4. If the page provides a release file, download and run that file
+5. If the page provides source files, use the included setup steps in the repository
 
----
+If you downloaded a ZIP file:
+1. Right-click the ZIP file
+2. Select Extract All
+3. Pick a folder you can find again, such as Downloads or Desktop
+4. Open the extracted folder
 
-## 📦 Model Files
+## 🚀 First Run on Windows
 
-⚠️ Due to size limitations, trained models are hosted externally.
+After you have the files:
 
-👉 **Download Models:**
-[https://drive.google.com/drive/folders/1SKODIOYHia3v4NBa8wBIywJeWsbampTC?usp=sharing](https://drive.google.com/drive/folders/1SKODIOYHia3v4NBa8wBIywJeWsbampTC?usp=sharing)
+1. Open the extracted project folder
+2. Find the app start file or setup guide
+3. Follow the included install steps
+4. Start the Streamlit app file if one is provided
+5. Open the local web page shown by the app in your browser
 
-### Required Files:
+If Windows asks for permission:
+- Choose Yes
+- Allow camera access if you want face analysis
+- Allow microphone access if you want speech analysis
 
-* `audio_emotion_model.keras`
-* `face_emotion_model.pth`
-* `blaze_face_short_range.tflite`
-* `face_landmarker.task`
+## 🧩 Typical Install Flow
 
-📌 Place all files inside:
+If the package includes a Python-based setup, the usual steps are:
 
-```
-models/
-```
+1. Install Python
+2. Open the project folder
+3. Open Command Prompt in that folder
+4. Install the required packages
+5. Run the app command
+6. Open the link shown in the terminal
 
----
+Common setup tools used by this type of app:
+- Python
+- pip
+- Streamlit
+- OpenCV
+- Deep learning model files
 
-## 📚 Research Foundation
+## 📷 How to Use Facial Emotion Recognition
 
-### 🎤 Audio Dataset — RAVDESS
+To use face-based emotion detection:
 
-* Ryerson Audio-Visual Database of Emotional Speech and Song
-* Contains **7356 recordings** from 24 professional actors
-* Emotions: calm, happy, sad, angry, fearful, surprise, disgust
-* Multi-modal: audio-only, video-only, and audio-visual formats
+1. Open the app
+2. Turn on your webcam
+3. Keep your face visible
+4. Sit in good light
+5. Wait for the result on screen
 
-🔗 Official Dataset (Zenodo):
-[https://zenodo.org/records/1188976](https://zenodo.org/records/1188976)
+For better face results:
+- Face the camera straight on
+- Avoid strong backlight
+- Keep your face in the frame
+- Remove anything that hides most of your face
 
----
+## 🎙️ How to Use Speech Emotion Recognition
 
-### 🎭 Face Dataset — FER-2013
+To use voice-based emotion detection:
 
-* Grayscale facial images of size **48×48 pixels**
-* 7 emotion classes:
-  * Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
-* Training set:  **28,709 images** , Test set: **3,589 images**
+1. Open the app
+2. Allow microphone access
+3. Speak into the microphone
+4. Read the result on the dashboard
+5. Repeat if you want another check
 
-🔗 Dataset (Kaggle):
-[https://www.kaggle.com/datasets/msambare/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)
+For better voice results:
+- Use a quiet room
+- Speak at a normal pace
+- Avoid background noise
+- Keep the microphone close
 
----
+## 📊 Dashboard View
 
-## 📈 Results
+The Streamlit dashboard gives you a simple screen with:
+- Emotion result labels
+- Confidence values
+- Face and voice input panels
+- Clear status messages
+- Easy controls for running analysis
 
-### Audio Model (RAVDESS)(94.44%)
+This makes it easier to compare facial and speech results in one place.
 
-* Strong fold accuracy across training
-* Clear class separation in confusion matrix
+## 🧠 How It Works
 
-### Face Model (FER-2013)(69.13%)
+The app uses two models:
 
-* Stable training performance
-* Reliable classification on test data
+- A face model based on image features
+- A speech model based on audio features
 
-📁 Refer to `/results` folder for:
+It then compares the signals and shows the emotion result in the dashboard.
 
-* Confusion matrices
-* Accuracy plots
-* Training curves
+Common emotion classes may include:
+- Happy
+- Sad
+- Angry
+- Neutral
+- Fear
+- Surprise
+- Disgust
 
----
+## 📁 Project Structure
 
-## ⚡ Installation
+You may see folders like these in the project:
 
-```bash
-git clone https://github.com/sandip234-ui/HumanSense-AI.git
-cd HumanSense-AI
-pip install -r requirements.txt
-```
+- `app`
+- `models`
+- `assets`
+- `data`
+- `notebooks`
+- `streamlit`
+- `src`
 
----
+These usually hold:
+- The dashboard files
+- Model weights
+- Sample media
+- Training data helpers
+- Utility scripts
 
-## ▶️ Run the App
+## ⚙️ Files You May Need
 
-```bash
-streamlit run app/app.py
-```
+Look for these kinds of files:
 
----
+- `README.md`
+- `requirements.txt`
+- `app.py`
+- `main.py`
+- `streamlit_app.py`
+- model files such as `.h5`, `.pkl`, or `.pt`
 
-## ⚠️ Important Note
+If you see a file named `requirements.txt`, it usually lists the software parts the app needs.
 
-Before running the application, ensure all required model files are downloaded and placed inside the `models/` directory.
+## 🔧 Common Windows Issues
 
----
+If the app does not start, check these points:
 
-## 🔮 Future Improvements
+- Python is installed
+- The project folder is in a simple path
+- The webcam is not used by another app
+- The microphone is enabled in Windows settings
+- All required files are present in the folder
 
-* 🔔 Real-time alert system
-* ☁️ Cloud deployment
-* 📱 Mobile integration
-* 🧠 Advanced fusion strategies (attention-based / weighted fusion)
+If the browser does not open:
+- Copy the local address shown in the terminal
+- Paste it into your browser
 
----
+## 🪟 Windows Permissions
 
-## 👨‍💻 Author
+For this app to work well, Windows may ask for access to:
+- Camera
+- Microphone
+- Local network use
 
-**Sandip Biswal**
+To allow access:
+1. Open Windows Settings
+2. Go to Privacy and security
+3. Open Camera
+4. Turn camera access on
+5. Open Microphone
+6. Turn microphone access on
 
-* GitHub: [https://github.com/sandip234-ui](https://github.com/sandip234-ui)
-* LinkedIn: [https://www.linkedin.com/in/sandip-biswal-728a7a291/](https://www.linkedin.com/in/sandip-biswal-728a7a291/)
+## 🔍 Best Results
 
----
+To improve accuracy:
+- Use one person at a time
+- Keep the face clear and visible
+- Use clean audio with less noise
+- Avoid moving too much during capture
+- Keep lighting steady
 
-## 📜 License
+## 🛠️ Troubleshooting
 
-For educational and research purposes only.
+If face detection is weak:
+- Move closer to the camera
+- Improve the light in the room
+- Remove sunglasses or a mask
+
+If voice detection is weak:
+- Check the microphone input
+- Reduce room noise
+- Speak more clearly
+
+If the dashboard is blank:
+- Refresh the page
+- Restart the app
+- Check that the model files loaded correctly
+
+## 📦 What This Repository Is For
+
+This repository is for users who want a multimodal emotion recognition tool on Windows. It combines computer vision and speech processing in one app, with a simple dashboard view.
+
+It is useful for:
+- Testing emotion recognition ideas
+- Exploring face and voice analysis
+- Demo use in a local Windows setup
+- Learning how multimodal AI tools work
+
+## 🧾 Topics Covered
+
+This project uses ideas from:
+- Computer vision
+- Deep learning
+- Emotion recognition
+- Facial recognition
+- Speech recognition
+- Machine learning
+- Streamlit apps
+- OpenCV
+- ResNet-18
+- FER-2013
+- RAVDESS
+
+## 🔗 Download Again
+
+[![Visit download page](https://img.shields.io/badge/Download-Visit%20the%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
+
+Open the page above to get the files, then follow the setup steps in the repository to run the app on Windows
